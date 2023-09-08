@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(136, 0, 255);
+}
+#controls{
+    width:25%;
+    height:20vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.fa-solid{
+    font-size: 2em;
+    border: 2px solid rgb(255, 174, 0);
+    padding:0.3em;
+    border-radius: 50%;
+    color:rgb(0, 143, 253);
+    
+}
